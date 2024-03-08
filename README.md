@@ -1,7 +1,7 @@
 # Flower Box Bounty
 
 ## Description
-Flower Box Bounty is a game that allows players to groom a flower box, nurturing plants that will eventually transform into fresh vegetables and fruits. The game follows the 3-tier architecture with a strong focus on maintainability. I utilized design patterns to ensure efficient handling of future changes.
+Flower Box Bounty is a game that allows players to groom a flower box, nurturing plants that will eventually transform into fresh vegetables and fruits which can then be crafted into items for gifting. . The game follows the 3-tier architecture with a strong focus on maintainability. I utilized design patterns to ensure efficient handling of future changes.
 
 ## Table of Contents
 - [Key Features](#key-features)
