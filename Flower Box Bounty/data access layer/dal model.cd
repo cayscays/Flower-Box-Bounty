@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Data.Models.JarBuilderDoc">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>data access layer\model\gamestateproperties\JarBuilderDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Models.NpcDoc">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>data access layer\model\gamestateproperties\NpcDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Models.PlantDoc">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAIAAAAAAAAgAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>data access layer\model\gamestateproperties\PlantDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flowerbox_Bounty.data_access_layer.model.StoredItemDoc">
+    <Position X="7.25" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAEAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>data access layer\model\gamestateproperties\StoredItemDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Models.BsonDocBase">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>data access layer\model\BsonDocBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Models.GiftDoc">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAgAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>data access layer\model\GiftDoc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Item" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Data.Models.LeaderboardDoc">
+    <Position X="15" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>data access layer\model\LeaderboardDoc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Entries" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LeaderboardModule.Entry">
+    <Position X="17.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAwEgAAAAAQAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>business logic layer\leaderboard\Entry.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Data.Models.PlayerDoc">
+    <Position X="13" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>data access layer\model\PlayerDoc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Models.GamestateDoc">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Items" Type="Flowerbox_Bounty.data_access_layer.model.StoredItemDoc" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="1.387" />
+        <Point X="6.875" Y="1.387" />
+        <Point X="6.875" Y="4.75" />
+        <Point X="7.25" Y="4.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Npcs" Type="Data.Models.NpcDoc" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.172" Y="2.377" />
+        <Point X="4.172" Y="2.954" />
+        <Point X="2.5" Y="2.954" />
+        <Point X="2.5" Y="5" />
+        <Point X="2.75" Y="5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Plants" Type="Data.Models.PlantDoc" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.656" Y="2.377" />
+        <Point X="4.656" Y="4.75" />
+        <Point X="5" Y="4.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAQQAAAAAACCAAAAQAAAAAAAAAAAAABQAAAAAAAAAA=</HashCode>
+      <FileName>data access layer\model\GamestateDoc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Items" />
+      <Property Name="Npcs" />
+      <Property Name="Plants" />
+      <Property Name="JamJar" />
+      <Property Name="PickledJar" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

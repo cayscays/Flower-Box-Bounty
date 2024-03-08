@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <RootNamespace>Flower_Box_Bounty</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="business logic layer\notifications\**" />
+    <EmbeddedResource Remove="business logic layer\notifications\**" />
+    <None Remove="business logic layer\notifications\**" />
+    <Page Remove="business logic layer\notifications\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="presentation layer\view\resources\Background.png" />
+    <None Remove="presentation layer\view\resources\Blueberry.bmp" />
+    <None Remove="presentation layer\view\resources\Brown.bmp" />
+    <None Remove="presentation layer\view\resources\Budding - Copy.bmp" />
+    <None Remove="presentation layer\view\resources\Budding.Green.bmp" />
+    <None Remove="presentation layer\view\resources\Budding.Yellow.bmp" />
+    <None Remove="presentation layer\view\resources\Carrot.bmp" />
+    <None Remove="presentation layer\view\resources\Empty.bmp" />
+    <None Remove="presentation layer\view\resources\FlowerBox.bmp" />
+    <None Remove="presentation layer\view\resources\Garlic.bmp" />
+    <None Remove="presentation layer\view\resources\Raspberry.bmp" />
+    <None Remove="presentation layer\view\resources\Seeding.bmp" />
+    <None Remove="presentation layer\view\resources\Tomato.bmp" />
+    <None Remove="presentation layer\view\resources\Vegetative - Copy.bmp" />
+    <None Remove="presentation layer\view\resources\Vegetative.Green.bmp" />
+    <None Remove="presentation layer\view\resources\Vegetative.Yellow.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="presentation layer\view\resources\Background.png" />
+    <Resource Include="presentation layer\view\resources\Carrot.bmp" />
+    <Resource Include="presentation layer\view\resources\FlowerBox.bmp" />
+    <Resource Include="presentation layer\view\resources\Tomato.bmp" />
+    <Resource Include="presentation layer\view\resources\Blueberry.bmp" />
+    <Resource Include="presentation layer\view\resources\Raspberry.bmp" />
+    <Resource Include="presentation layer\view\resources\Brown.bmp" />
+    <Resource Include="presentation layer\view\resources\Budding.Yellow.bmp" />
+    <Resource Include="presentation layer\view\resources\Empty.bmp" />
+    <Resource Include="presentation layer\view\resources\Budding.Green.bmp" />
+    <Resource Include="presentation layer\view\resources\Garlic.bmp" />
+    <Resource Include="presentation layer\view\resources\Seeding.bmp" />
+    <Resource Include="presentation layer\view\resources\Vegetative.Green.bmp" />
+    <Resource Include="presentation layer\view\resources\Vegetative.Yellow.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
+  </ItemGroup>
+
+</Project>

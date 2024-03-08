@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GamestateModule.GameState">
+    <Position X="4" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAAAEACAIAABQAJEBAAAgBAQAIAAACAAAA=</HashCode>
+      <FileName>business logic layer\gamestate\GameState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_level" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_npcs" />
+      <Field Name="_items" />
+      <Field Name="_plants" />
+      <Field Name="_preserveBuilders" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="GamestateModule.InteractiveGameState">
+    <Position X="3.5" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAYEAAEBQAECgAAAAQoAECAAwEAAACBJCQIAAgCA=</HashCode>
+      <FileName>business logic layer\gamestate\InteractiveGameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="levels_module.Level" Collapsed="true">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAAAAAAAABA=</HashCode>
+      <FileName>business logic layer\level\Level.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlantModule.Plant" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAEAEAAEAAoAAAQAKAQAAABACAAIAABA=</HashCode>
+      <FileName>business logic layer\plant\Plant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="npc_module.Npc" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAGAEAAAAAAAAAEQAAAAAQAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>business logic layer\npc\Npc.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PreservePlantModule.PreserveBuilder" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAEAAAAAAAEAAAAAAKAAAAAAAAgAAA=</HashCode>
+      <FileName>business logic layer\preserve\PreserveBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ItemModule.IStoredItem" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\item\IStoredItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

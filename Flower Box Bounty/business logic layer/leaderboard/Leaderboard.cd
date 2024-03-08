@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LeaderboardModule.Leaderboard">
+    <Position X="7" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAAAAEEAAAAAABAgAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\leaderboard\Leaderboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.LeaderboardView">
+    <Position X="0.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\view\LeaderboardView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ViewModel.LeaderboardViewModel">
+    <Position X="4" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\LeaderboardsViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Entries" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ViewModel.EntryViewModel">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\EntryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service.LeaderboardService">
+    <Position X="1.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\service\LeaderboardService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

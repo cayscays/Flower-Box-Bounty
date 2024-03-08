@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Data.Operations.GamestateDal">
+    <Position X="3.5" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgAEAAAAAAAAAAAAAAAAAgBCCAAAAIAAA=</HashCode>
+      <FileName>data access layer\operation\GamestateDal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Operations.GiftsDal">
+    <Position X="9.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAIAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>data access layer\operation\GiftsDal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Operations.LeaderboardDal">
+    <Position X="6.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAFAAAAAAAAAgAAAAAEAAAAABAAAAAAA=</HashCode>
+      <FileName>data access layer\operation\LeaderboardDal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Operations.UsersDal">
+    <Position X="0.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEAIAAEAAAAAAAAAAAAAAAAAAAAAAQAEAIAA=</HashCode>
+      <FileName>data access layer\operation\UsersDal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.Connection">
+    <Position X="4" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAQAAAAIAAEAAEA=</HashCode>
+      <FileName>data access layer\Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data.ConnectionManager">
+    <Position X="0.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>data access layer\ConnectionManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DatabaseConnection" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Data.Constants">
+    <Position X="6.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQAAABAAAAAAAAAAAIACAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>data access layer\Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

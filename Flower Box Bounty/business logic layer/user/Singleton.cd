@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UserModule.CurrentUser">
+    <Position X="3.75" Y="1.25" Width="1.5" />
+    <AssociationLine Name="_instance" Type="UserModule.CurrentUser" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="3.938" />
+        <Point X="6.722" Y="3.938" />
+        <Point X="6.722" Y="3.25" />
+        <Point X="5.25" Y="3.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAgAAAAAAIABAAAAIAAAAASAAAAAAE=</HashCode>
+      <FileName>business logic layer\user\CurrentUser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_instance" />
+      <Field Name="_user" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UserModule.User" Collapsed="true">
+    <Position X="7" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\user\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

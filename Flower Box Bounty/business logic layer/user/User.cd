@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="service.UserService">
+    <Position X="0.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAAACAAACAAAEAAQQAEBAAA=</HashCode>
+      <FileName>business logic layer\service\UserService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_admin" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UserModule.Administrator">
+    <Position X="4.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\user\Administrator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserModule.CurrentUser">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAgAAAAAAIABAAAAIAAAAASAAAAAAE=</HashCode>
+      <FileName>business logic layer\user\CurrentUser.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_instance" />
+      <Field Name="_user" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UserModule.Player">
+    <Position X="6.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\user\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gameState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UserModule.User">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\user\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GamestateModule.GameState" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAAAEACAIAABQAJEBAAAgBAQAIAAACAAAA=</HashCode>
+      <FileName>business logic layer\gamestate\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

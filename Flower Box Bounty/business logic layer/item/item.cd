@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ItemModule.Crop" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\item\Crop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CropType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.151" />
+  </Class>
+  <Class Name="ItemModule.Seed" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\item\Seed.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CropType" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ItemModule.IStoredItem">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\item\IStoredItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Common.CropType">
+    <Position X="6.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAgABAAgAgA=</HashCode>
+      <FileName>common\CropType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

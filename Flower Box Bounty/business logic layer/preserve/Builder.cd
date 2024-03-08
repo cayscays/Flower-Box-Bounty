@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PreservePlantModule.JarBuilder" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAEACAAAAKAAAAAAAAgAAA=</HashCode>
+      <FileName>business logic layer\preserve\JarBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreservePlantModule.PreserveBuilder" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAEAAAAAAAEAAAAAAKAAAAAAAAgAAA=</HashCode>
+      <FileName>business logic layer\preserve\PreserveBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreservePlantModule.Preseved" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAAAAMAAAAAAAAACAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>business logic layer\preserve\Preseved.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GamestateModule.GameState" Collapsed="true">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAAAEACAIAABQAJEBAAAgBAQAIAAACAAAA=</HashCode>
+      <FileName>business logic layer\gamestate\GameState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_preserveBuilders" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

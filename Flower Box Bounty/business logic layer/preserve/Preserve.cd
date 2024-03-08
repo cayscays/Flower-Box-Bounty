@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PreservePlantModule.JarBuilder">
+    <Position X="6.75" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAEACAAAAKAAAAAAAAgAAA=</HashCode>
+      <FileName>business logic layer\preserve\JarBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_cropTypes" />
+      <Property Name="CropTypes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PreservePlantModule.PreserveBuilder">
+    <Position X="6.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAAAAAAEAAAAAAAEAAAAAAKAAAAAAAAgAAA=</HashCode>
+      <FileName>business logic layer\preserve\PreserveBuilder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_preserveType" />
+      <Property Name="PreserveType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PreservePlantModule.Preseved" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAAAAAAAAMAAAAAAAAACAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>business logic layer\preserve\Preseved.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_presevedType" />
+      <Property Name="PreserveType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_cropTypes" />
+      <Property Name="CropTypes" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GamestateModule.GameState" Collapsed="true">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAAAEACAIAABQAJEBAAAgBAQAIAAACAAAA=</HashCode>
+      <FileName>business logic layer\gamestate\GameState.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_preserveBuilders" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="PreservePlantModule.PreserveType">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\preserve\PreserveType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Common.CropType">
+    <Position X="16.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAgABAAgAgA=</HashCode>
+      <FileName>common\CropType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

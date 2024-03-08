@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="View.AdminMainMenuView" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAgAAAAAAAAAEAIAAAAAQAAAAA=</HashCode>
+      <FileName>presentation layer\view\AdminMainMenuView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="View.GameView" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gJQQQCAAAAEKCAASABAAABAADAQAAAABQSACADAQkAg=</HashCode>
+      <FileName>presentation layer\view\GameView.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="View.HelpView" BaseTypeListCollapsed="true">
+    <Position X="11" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\view\HelpView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="View.LeaderboardView" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="13.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\view\LeaderboardView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="View.LoginView" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAgAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\view\LoginView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="View.SignupView" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\view\SignupView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="View.WatchPlayerGameView" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="13.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAQAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\view\WatchPlayerGameView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="View.WelcomeView" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="13.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAIAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>presentation layer\view\WelcomeView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ViewModel.AdminMainMenuViewModel">
+    <Position X="3.25" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\AdminMainMenuViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.EntryViewModel">
+    <Position X="17.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\EntryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.GameViewModel">
+    <Position X="7.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAQAIGAAFAQCAAiAAAAQAAACQAwAAACABBQAJUAEAA=</HashCode>
+      <FileName>presentation layer\viewmodel\GameViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_gamestate" />
+      <Field Name="_interactiveGamestate" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ViewModel.HelpViewModel">
+    <Position X="11.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\HelpViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.LeaderboardViewModel">
+    <Position X="15" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\LeaderboardsViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Entries" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ViewModel.LoginViewModel">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEAAQAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.MainMenuViewModel">
+    <Position X="1.75" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAIAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\MainMenuViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.PlayerMainMenuViewModel">
+    <Position X="0.5" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\PlayerMainMenuViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.SignupViewModel">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\SignupViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewModel.ViewModel">
+    <Position X="9.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgUAAAAAAAAEAEAAAAAAAIAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\ViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_currentUser" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ViewModel.WatchPlayerGameViewModel">
+    <Position X="20.5" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAQAAAAAAAAAAIIAAAAAAAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\WatchPlayerGameViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ViewModel.WelcomeViewModel">
+    <Position X="5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAQAAAAAAA=</HashCode>
+      <FileName>presentation layer\viewmodel\WelcomeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeaderboardModule.Leaderboard">
+    <Position X="14.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAAAAEEAAAAAABAgAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\leaderboard\Leaderboard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserModule.User">
+    <Position X="24.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>business logic layer\user\User.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GamestateModule.GameState" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAAAAAAAAAAEACAIAABQAJEBAAAgBAQAIAAACAAAA=</HashCode>
+      <FileName>business logic layer\gamestate\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GamestateModule.InteractiveGameState" Collapsed="true">
+    <Position X="10.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAYEAAEBQAECgAAAAQoAECAAwEAAACBJCQIAAgCA=</HashCode>
+      <FileName>business logic layer\gamestate\InteractiveGameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserModule.CurrentUser" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAgAAAAAAIABAAAAIAAAAASAAAAAAE=</HashCode>
+      <FileName>business logic layer\user\CurrentUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="View.PlayerMainMenuView" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="13.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAUAAAgAAAAAAAAAEAAAAAAAQAAAAA=</HashCode>
+      <FileName>presentation layer\view\PlayerMainMenuView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_viewModel" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
