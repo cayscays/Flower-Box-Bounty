@@ -12,9 +12,9 @@ Flower Box Bounty is a game that allows players to groom a flower box, nurturing
 
 
 ## Key Features
-- Grow various plants into fresh produce in a flower box.
-- Craft homemade jams and pickles using harvested crops.
-- Store and share produce, seeds, and canned goods with other players, fostering a sense of community.
+- :seedling:  Grow various plants into fresh produce in a flower box.
+-  :canned_food:  Craft homemade jams and pickles using harvested crops.
+- :tomato:  Store and share produce, seeds, and canned goods with other players, fostering a sense of community.
 
 ## Technologies Used
 - Developed using .NET 7.0 and C#.
